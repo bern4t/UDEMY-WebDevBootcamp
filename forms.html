@@ -24,12 +24,12 @@
         <label for="number">Enter a number</label>
         <input id="number" type="number" placeholder="number" />
       </p>
-      <p>
-        <button>Button inside the form with default behavior: Submit</button>
-      </p>
-      <p>
-        <button type="button">Just a button</button>
-      </p>
+      <!-- This button doesn't submit the form -->
+      <button type="button">Just a button</button>
+      <!-- This button submits the form because of it's default type "submit" -->
+      <button>Button inside the form with default behavior: Submit</button>
+      <!-- This also submits the form -->
+      <input type="submit" value="Click me to submit!" />
     </form>
     <p>Outside the form:</p>
     <button>Outside button that does nothing</button>
