@@ -8,21 +8,33 @@
   <body>
     <h1>Forms practice</h1>
     <form action="/tacos">
+      <!-- After submitting the form, URL will be like this
+      http://127.0.0.1:5500/tacos?username=Bart&password=h123aslo&color=%23db1414&num=69  -->
       <p>
         <label for="username">Enter a Username:</label>
-        <input id="username" type="text" placeholder="username" />
+        <input
+          id="username"
+          type="text"
+          placeholder="username"
+          name="username"
+        />
       </p>
       <p>
         <label for="password">Enter a Password:</label>
-        <input id="password" type="password" placeholder="password" />
+        <input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
       </p>
       <p>
         <label for="color">Enter a Color:</label>
-        <input id="color" type="color" />
+        <input id="color" type="color" name="color" />
       </p>
       <p>
         <label for="number">Enter a number</label>
-        <input id="number" type="number" placeholder="number" />
+        <input id="number" type="number" placeholder="number" name="num" />
       </p>
       <!-- This button doesn't submit the form -->
       <button type="button">Just a button</button>
