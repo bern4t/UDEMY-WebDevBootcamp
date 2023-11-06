@@ -3,15 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marathon Registration Form</title>
+    <title>Race Registration Form</title>
   </head>
   <body>
-    <h1>Marathon Race Registration!</h1>
+    <h1>Race Registration!</h1>
     <form action="#">
       <label for="first-name">First Name</label>
       <input type="text" id="first-name" name="first-name" required />
       <label for="last-name">Last Name</label>
       <input type="text" id="last-name" name="last-name" required />
+      <p>Select a Race:</p>
+      <p>
+        <input type="radio" id="5k-run" name="race" value="5k-run" required />
+        <label for="5k-run">Fun Run 5k</label>
+      </p>
+      <p>
+        <input
+          type="radio"
+          id="half-marathon"
+          name="race"
+          value="half-marathon"
+        />
+        <label for="half-marathon">Half Marathon</label>
+      </p>
+      <p>
+        <input
+          type="radio"
+          id="full-marathon"
+          name="race"
+          value="full-marathon"
+        />
+        <label for="full-marathon">Full Marathon</label>
+      </p>
+
       <button>Register!</button>
     </form>
   </body>
