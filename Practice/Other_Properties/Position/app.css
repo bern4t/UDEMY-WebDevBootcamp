@@ -26,3 +26,18 @@ div {
   /* Left: 40px moves element 40px to the right */
   left: 40px;
 }
+
+#absolute {
+  position: relative;
+  /* This is ancestor of the pos:absolute element which will be positioned
+  relatively to this container. Otherwise absolute element is positioned
+  to the body */
+}
+
+#absolute .middle {
+  position: absolute;
+  /* Pos: Absolute removes element from the normal document flow so
+  no space is create for the element in the page layout */
+  top: 50px;
+  left: 30px;
+}
