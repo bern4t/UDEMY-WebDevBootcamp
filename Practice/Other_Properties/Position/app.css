@@ -7,6 +7,6 @@ div {
   display: inline-block;
 }
 
-#middle {
+.middle {
   background-color: #81b29a;
 }
