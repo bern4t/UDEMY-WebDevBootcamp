@@ -41,3 +41,12 @@ div {
   top: 50px;
   left: 30px;
 }
+
+#fixed .middle {
+  /* Position fixed must have any of the position values like top etc. */
+  position: fixed;
+  /* It's positioned to the container and it stays always in one place */
+  top: 0;
+  left: 400px;
+  /* Useful mostly for the nav bars */
+}
