@@ -10,3 +10,10 @@ div {
 .middle {
   background-color: #81b29a;
 }
+
+#static .middle {
+  position: static;
+  /* Properties below don't fork for position: static */
+  top: 100px;
+  left: 100px;
+}
