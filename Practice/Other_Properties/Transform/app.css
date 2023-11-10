@@ -22,3 +22,36 @@ h1:nth-of-type(3n) {
 h1:nth-of-type(4n) {
   background-color: #e76f51;
 }
+
+section:first-of-type h1:nth-of-type(1) {
+  /* transform-origin: bottom right; */
+  transform: rotate(45deg);
+}
+
+section:first-of-type h1:nth-of-type(2) {
+  transform: scale(0.6);
+}
+
+section:first-of-type h1:nth-of-type(3) {
+  transform: translateX(-200px);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+  transform: translateY(50px);
+}
+
+section:nth-of-type(2) h1:nth-of-type(1) {
+  transform: skew(30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(2) {
+  transform: skew(10deg, 5deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(3) {
+  transform: rotate(-20deg) scale(1.5) skew(10deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4) {
+  transform: translateX(-300px) rotate(0.5turn) scaleY(1.5);
+}
