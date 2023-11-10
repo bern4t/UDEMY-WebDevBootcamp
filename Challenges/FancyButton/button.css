@@ -14,3 +14,10 @@ button {
   padding: 1em 2em;
   font-size: 1em;
 }
+
+button:hover {
+  border-color: #f1ff5c;
+  color: white;
+  /* offset-x | offset-y | blur-radius | spread radius | color */
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+}
