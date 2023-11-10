@@ -17,3 +17,12 @@ div {
   top: 100px;
   left: 100px;
 }
+
+#relative .middle {
+  position: relative;
+  /* Properties below change relative position of the element (from it's initial position) */
+  /* Top: 20px moves element 20px to the bottom */
+  top: 20px;
+  /* Left: 40px moves element 40px to the right */
+  left: 40px;
+}
