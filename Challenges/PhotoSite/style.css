@@ -1,7 +1,6 @@
 img {
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  width: 30%;
+  /* Margin: 100%-3*30%=10% (because 3 imgs in a row)  
+  10%/6=1.666% because 6 margins for images (2*3 cause of bith sides)*/
+  margin: 1.666%;
 }
