@@ -5,12 +5,14 @@ h1 {
   text-align: center;
 }
 #container {
-  display: flex;
   background-color: #003049;
   width: 90%;
   height: 500px;
   margin: 0 auto;
   border: 5px solid #003049;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 #container div {
