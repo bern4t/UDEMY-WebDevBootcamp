@@ -7,25 +7,26 @@ h1 {
 #container {
   background-color: #003049;
   width: 90%;
-  height: 500px;
+  /* height: 500px; */
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 #container div {
   width: 200px;
   height: 200px;
+  flex-basis: 200px;
 }
 
+/* Align-self practice
 div:nth-of-type(3) {
   align-self: center;
 }
 
 div:nth-of-type(5) {
   align-self: flex-end;
-}
+} */
