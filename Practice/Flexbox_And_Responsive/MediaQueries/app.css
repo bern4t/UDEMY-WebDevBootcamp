@@ -56,3 +56,9 @@ h1 {
     color: green;
   }
 }
+
+@media (orientation: landscape) {
+  body {
+    background-color: thistle;
+  }
+}
