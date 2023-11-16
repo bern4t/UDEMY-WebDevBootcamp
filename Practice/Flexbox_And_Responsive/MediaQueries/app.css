@@ -15,7 +15,7 @@ nav {
 }
 
 ul {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 1;
   max-width: 50%;
   display: flex;
@@ -81,6 +81,11 @@ h1 {
 @media (max-width: 650px) {
   h1 {
     font-size: 4em;
+  }
+  nav,
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
