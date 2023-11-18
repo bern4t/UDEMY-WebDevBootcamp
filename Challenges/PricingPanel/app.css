@@ -55,3 +55,14 @@ body {
   padding: 15px 0;
   border-top: 1px solid #e1f1f1;
 }
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1f1;
+}
+
+.pricing-price {
+  color: #016ff9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
