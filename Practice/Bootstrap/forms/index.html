@@ -15,41 +15,67 @@
     <div class="container">
       <h1 class="display-2">Forms</h1>
       <form action="#">
+        <div class="form-row">
+          <div class="form-group col-md">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group col-md">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="password"
+            />
+          </div>
+        </div>
         <div class="form-group">
-          <label for="email">Email</label>
+          <label for="address">Street Address</label>
           <input
-            type="email"
+            type="text"
             class="form-control"
-            id="email"
-            placeholder="name@example.com"
+            id="address"
+            placeholder="123 Random Street"
           />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" />
+          </div>
+          <div class="form-group col-6 col-md-3">
+            <label for="state">State</label>
+            <select class="form-control" name="state" id="state">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+            </select>
+          </div>
+          <div class="form-group col-6 col-md-3">
+            <label for="zip">Zip-Code</label>
+            <input
+              type="text"
+              class="form-control"
+              id="zip"
+              name="zip"
+              placeholder="12-345"
+            />
+          </div>
         </div>
         <div class="form-group">
-          <label for="password">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="password"
-            placeholder="password"
-          />
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="register" />
+            <label class="custom-control-label" for="register"
+              >Sign Me Up</label
+            >
+          </div>
         </div>
-        <div class="form-group">
-          <label for="state">State</label>
-          <select class="form-control" name="state" id="state">
-            <option value="AL">Alabama</option>
-            <option value="AK">Alaska</option>
-          </select>
-        </div>
-        <div class="custom-control custom-checkbox">
-          <input
-            type="checkbox"
-            class="custom-control-input"
-            id="customCheck1"
-          />
-          <label class="custom-control-label" for="customCheck1"
-            >Sign Me Up</label
-          >
-        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
       </form>
     </div>
 
