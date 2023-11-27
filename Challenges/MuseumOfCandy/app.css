@@ -1,9 +1,9 @@
 body {
-  background: #f5d9d5;
+  background: #f5d9df;
   font-family: "Nunito", sans-serif;
 }
 
-/* Navbar */
+/* NAVBAR */
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
@@ -19,5 +19,15 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+/* HEADER */
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+#headingGroup span {
   color: #ea1c2c;
 }
