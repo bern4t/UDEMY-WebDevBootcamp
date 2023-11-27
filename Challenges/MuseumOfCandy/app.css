@@ -28,6 +28,12 @@ body {
   font-size: 4rem;
 }
 
+@media (max-width: 1250px) {
+  #headingGroup h1 {
+    font-size: 3rem;
+  }
+}
+
 #headingGroup span {
   color: #ea1c2c;
 }
